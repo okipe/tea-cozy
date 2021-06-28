@@ -1,0 +1,83 @@
+/*Site stylesheet
+  1. Global style
+  2. Tipography style
+  3. Structure stylesheet
+  4. Module style
+  5. Component style
+  6. Page style
+============================ */
+
+/* 1. Global style
+============================= */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0 auto;
+  overflow-x: hidden;
+  width: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -o-text-size-adjust: 100%;
+}
+body {
+  margin: 0 auto;
+  overflow-x: hidden;
+  width: 100%;
+  text-rendering: optimizeLegibility;
+  color: black;
+}
+.clearfix::after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+
+/* 2. Tipography style
+=============================== */
+
+body {
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  font-family: 'Helvetica', sans-serif;
+  Font-size: 22px;
+}
+
+/* 2. Structure style
+=============================== */
+
+/* Site navigation */
+
+.site-navigation {
+  margin: 10px 10px;
+  width: 100%;
+  position: fixed;
+  height: 69px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+}
+
+
+.site-navigation ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+  text-decoration: underline;
+  list-style: none;
+}
+
+.site-navigation ul a {
+  height: 100px;
+  padding: 0px 0px 0px 20px;
+
+  color: seashell;
+
+}
