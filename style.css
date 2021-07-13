@@ -81,6 +81,49 @@ header {
   width: 100%;
 }
 
-.month-list {
+.tea-container {
+  display: inline-flex;
+  max-width: 1000px;
+  height: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
 
+.tea img {
+  height: 200px;
+  width: 300px;
+  padding: 10px 10px;
+}
+
+.locations {
+  height: 500px;
+  max-width: 1200px;
+  margin: 40px auto auto auto;
+  padding-top: 100px;
+  background-image: url(img/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  }
+
+/*.text-top-locations {
+  font-size: 43px;
+}*/
+
+.place-container {
+  max-width: 1050px;
+  margin: 15px auto auto auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.place {
+  height: 300px;
+  padding: 20px;
+  margin-bottom: auto;
+  flex-basis: 30%;
+  box-sizing: border-box;
+  background-color: black;
+  opacity: 1;
 }
