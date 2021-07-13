@@ -107,10 +107,6 @@ header {
   background-size: cover;
   }
 
-/*.text-top-locations {
-  font-size: 43px;
-}*/
-
 .place-container {
   max-width: 1050px;
   margin: 15px auto auto auto;
@@ -126,4 +122,12 @@ header {
   box-sizing: border-box;
   background-color: black;
   opacity: 1;
+}
+
+footer {
+  display: block;
+  float: left;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
 }
